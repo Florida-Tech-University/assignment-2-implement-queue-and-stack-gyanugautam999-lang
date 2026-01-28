@@ -32,6 +32,7 @@ public class StackUsingQueue<E> implements StackADT<E> {
         // TODO:
         // 1) q.enqueue(e)
         q.enqueue(e);
+        
         // 2) rotate (size-1) times:
         //    q.enqueue(q.dequeue());
         // so the newest element becomes the front of the queue.
